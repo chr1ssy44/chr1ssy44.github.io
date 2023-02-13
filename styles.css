@@ -35,3 +35,37 @@ background-color: #FFB9B9;
 img{
     border-radius: 50%;
 }
+#hob{
+    text-decoration: underline;
+}
+
+#bout{
+    color: #FFB9B9;
+    border-style: inset;
+    border-color: white;
+}
+
+#shortcake:hover{
+    width:250px;
+    height: 200px;
+    transition: 1s;
+}
+
+#log{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#web:hover{
+    width: 300px;
+    transition: 2s;
+}
+
+#good{
+    text-decoration: underline;
+}
+
+
+#cert{
+    text-decoration: underline;
+}
