@@ -46,7 +46,7 @@ img{
 }
 
 #shortcake:hover{
-    width:250px;
+    width:275px;
     height: 200px;
     transition: 1s;
 }
@@ -58,7 +58,7 @@ img{
 
 #web:hover{
     width: 300px;
-    transition: 2s;
+    transition: 1s;
 }
 
 #good{
@@ -68,4 +68,10 @@ img{
 
 #cert{
     text-decoration: underline;
+}
+
+#game:hover{
+    width: 275px;
+    transition: 1s;
+
 }
