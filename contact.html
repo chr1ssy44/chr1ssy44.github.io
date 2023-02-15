@@ -16,8 +16,10 @@
 </nav>
 </body>
 </html>
-<form>
-   <label for="fname">First name:(required)</label><br>
+<form
+ action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
+ method="post"
+ <label for="fname">First name:(required)</label><br>
    <input type="text" id="fname" name="fname"><br>
    <label for="lname">Last name:(required)</label><br>
    <input type="text" id="lname" name="lname"><br>
@@ -28,5 +30,4 @@
    <label for="message">Message:</label><br>
    <input type="text" id="message" name="message"<br><br>
    <input type="button" value="Sumbit">
-   <input type="reset"
 </form>
