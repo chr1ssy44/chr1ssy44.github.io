@@ -40,14 +40,12 @@ img{
 }
 
 #bout{
-    color: #FFB9B9;
-    border-style: inset;
-    border-color: white;
+    color:white;
+    text-decoration: underline;
 }
 
 #shortcake:hover{
-    width:275px;
-    height: 200px;
+    width: 250px;
     transition: 1s;
 }
 
@@ -71,7 +69,20 @@ img{
 }
 
 #game:hover{
-    width: 275px;
+    width: 250px;
     transition: 1s;
 
 }
+@import url('https://fonts.googleapis.com/css2?family=Tourney&display=swap');
+#con {
+    font-family: 'Tourney', cursive;
+    text-align: center;
+    text-decoration: underline;
+    color: #716040;
+}
+
+#netflix:hover{
+    width: 250px;
+    transition: 1s;
+}
+   
