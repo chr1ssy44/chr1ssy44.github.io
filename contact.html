@@ -18,7 +18,7 @@
 </html>
 <form
  action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
- method="post"
+ method="post">
  <label for="fname">First name:(required)</label><br>
    <input type="text" id="fname" name="fname"><br>
    <label for="lname">Last name:(required)</label><br>
@@ -29,5 +29,6 @@
    <input type="text" id="sub" name="sub"><br>
    <label for="message">Message:</label><br>
    <input type="text" id="message" name="message"<br><br>
-   <input type="button" value="Sumbit">
+   <input type="submit" value="sumbit">
+   <input name="send-to" value="cbeckford2@brooklynsteamcenter.org" hidden>
 </form>
