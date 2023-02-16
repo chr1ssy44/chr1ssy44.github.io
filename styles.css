@@ -61,11 +61,13 @@ img{
 
 #good{
     text-decoration: underline;
+    text-align: center;
 }
 
 
 #cert{
     text-decoration: underline;
+    text-align: center;
 }
 
 #game:hover{
@@ -74,6 +76,7 @@ img{
 
 }
 @import url('https://fonts.googleapis.com/css2?family=Tourney&display=swap');
+
 #con {
     font-family: 'Tourney', cursive;
     text-align: center;
@@ -85,4 +88,35 @@ img{
     width: 250px;
     transition: 1s;
 }
-   
+
+input{
+    background-color:whitesmoke;
+    border-radius: 8px;
+    padding: 15px 15px ;
+    border: 4px #FFB9B9 solid;
+}
+
+input[type=submit]{
+    background-color:#BF9270;
+}
+
+input:focus{
+    background-color:peachpuff;
+}
+
+form{
+    text-align: center;
+}
+
+#skills{
+    text-align: center;
+}
+
+#dots{
+    text-align: center;
+}
+
+#exp{
+    text-decoration: underline;
+    
+}
