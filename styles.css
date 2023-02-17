@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Unna&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase&family=Short+Stack&display=swap');
 body{
-    font-family: 'Unna', serif;
+    font-family: 'Delius Unicase', cursive;
 }
 
 h1{
@@ -18,6 +17,7 @@ font-style: italic;
 
  nav{
     background-color:#BF9270;
+    border-radius: 4px;
  }
 
  nav > a{
@@ -29,6 +29,7 @@ font-style: italic;
 
 nav > a:hover {
 background-color: #FFB9B9;
+border-radius: 4px;
 
 }
 
@@ -42,11 +43,6 @@ img{
 #bout{
     color:white;
     text-decoration: underline;
-}
-
-#shortcake:hover{
-    width: 250px;
-    transition: 1s;
 }
 
 #log{
@@ -70,11 +66,6 @@ img{
     text-align: center;
 }
 
-#game:hover{
-    width: 250px;
-    transition: 1s;
-
-}
 @import url('https://fonts.googleapis.com/css2?family=Tourney&display=swap');
 
 #con {
@@ -82,11 +73,6 @@ img{
     text-align: center;
     text-decoration: underline;
     color: #716040;
-}
-
-#netflix:hover{
-    width: 250px;
-    transition: 1s;
 }
 
 input{
@@ -119,4 +105,16 @@ form{
 #exp{
     text-decoration: underline;
     
+}
+
+.float-right{
+    float:left;
+}
+
+#first{
+    margin-top: 10px;
+    border-style: outset;
+    border-color: #85CDFD;
+    border-width: 5px;
+    width:40%;
 }
