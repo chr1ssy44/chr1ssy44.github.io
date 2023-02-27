@@ -118,3 +118,19 @@ form{
     border-width: 5px;
     width:40%;
 }
+
+#car{
+    float: left;
+}
+
+#welcome{
+    position:fixed;
+    left: 220px;
+    border-style:ridge;
+    border-color: #9f8662;
+}
+   
+#res{
+    position: fixed;
+    bottom: 275px;
+}
