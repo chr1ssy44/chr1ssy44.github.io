@@ -121,16 +121,27 @@ form{
 
 #car{
     float: left;
+    position: static;
 }
 
 #welcome{
     position:fixed;
-    left: 220px;
-    border-style:ridge;
-    border-color: #9f8662;
+    padding-left:275px;
+    
+
+    
 }
    
 #res{
     position: fixed;
     bottom: 275px;
+}
+
+
+@media screen and(max-width:480px){
+
+.float-right{
+    float: unset;
+}
+ /*moblie-phone*/
 }
