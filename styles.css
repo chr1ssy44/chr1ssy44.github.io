@@ -121,27 +121,55 @@ form{
 
 #car{
     float: left;
-    position: static;
+    position:relative;
 }
 
 #welcome{
     position:fixed;
-    padding-left:275px;
-    
-
-    
+    padding-left:275px; 
 }
-   
+
 #res{
     position: fixed;
-    bottom: 275px;
+    left:0;
+    bottom:0;
+    width:100%;
+    height:5%;
+    background-color:#A4BE7B;
+    text-align:center;
+    text-decoration:overline;
 }
 
+#ill {
+    background-image: url("blob\ \(2\).svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    border-radius: 100px;
+    /* unvisited link */
+    a:link;
+        color: white;
+    }
+
+    /* visited link */
+    a:visited{
+        color: white;
+    
+    }
+
+    /* mouse over link */
+    a:hover{
+        color:#FEA1BF;
+    }
+
+    /* selected link */
+    a:active{
+        color:blue;
+    }
+    
 
 @media screen and(max-width:480px){
-
-.float-right{
-    float: unset;
 }
- /*moblie-phone*/
+ /*moblie-phone*
+    
 }
