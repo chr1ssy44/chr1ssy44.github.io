@@ -114,9 +114,9 @@ form{
 #first{
     margin-top: 10px;
     border-style: outset;
-    border-color: #85CDFD;
+    border-color:#A4BE7B;
     border-width: 5px;
-    width:40%;
+    width:25%;
 }
 
 #car{
@@ -166,6 +166,7 @@ form{
     a:active{
         color:blue;
     }
+
     
 
 @media screen and(max-width:480px){
