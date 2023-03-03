@@ -55,6 +55,24 @@ img{
     transition: 1s;
 }
 
+#plan{
+    width:290px;
+}
+
+#plan:hover{
+    width: 320px;
+    transition: 1s;
+}
+
+#net{
+    width:290px
+}
+
+#net:hover{
+    width:320px;
+    transition: 1s;
+}
+
 #good{
     text-decoration: underline;
     text-align: center;
@@ -112,11 +130,17 @@ form{
 }
 
 #first{
-    margin-top: 10px;
-    border-style: outset;
+    margin-top: 15px;
+    border-style:groove;
     border-color:#A4BE7B;
     border-width: 5px;
     width:25%;
+    border-radius: 10%;
+    height: 40px;
+}
+
+#http{
+    margin-top: 250px;
 }
 
 #car{
@@ -140,12 +164,21 @@ form{
     text-decoration:overline;
 }
 
+#hand{
+    position: absolute;
+    bottom: 50px;
+   
+}
+
+    
+
 #ill {
-    background-image: url("blob\ \(2\).svg");
+    background-image: url("blob\ \(3\).svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
     border-radius: 100px;
+    padding: 300px 100px;
     /* unvisited link */
     a:link;
         color: white;
@@ -167,6 +200,43 @@ form{
         color:blue;
     }
 
+ #rick{
+    text-align: center;
+    text-decoration: overline;
+ }
+
+ #fact{
+    background-image: url("blob\ \(3\).svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    border-radius: 100px;
+    margin-left: 200px ;
+    padding:300px 100px;
+    
+    
+    /* unvisited link */
+    a:link;
+        color: white;
+    }
+
+    /* visited link */
+    a:visited{
+        color: white;
+    
+    }
+
+    /* mouse over link */
+    a:hover{
+        color:#FEA1BF;
+    }
+
+    /* selected link */
+    a:active{
+        color:blue;
+    }
+
+ 
     
 
 @media screen and(max-width:480px){
