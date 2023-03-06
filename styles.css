@@ -10,9 +10,9 @@ h1{
 }
 
 body{
-background-color:#A4BE7B;
-color:white;
-font-style: italic;
+    background-color: #A4BE7B;
+    color:white;
+    font-style: italic;
 }
 
  nav{
@@ -28,9 +28,12 @@ font-style: italic;
  }
 
 nav > a:hover {
-background-color: #FFB9B9;
-border-radius: 4px;
+    background-color: #FFB9B9;
+    border-radius: 4px;
+}
 
+#navbar{
+    position: sticky;
 }
 
 img{
@@ -164,14 +167,6 @@ form{
     text-decoration:overline;
 }
 
-#hand{
-    position: absolute;
-    bottom: 50px;
-   
-}
-
-    
-
 #ill {
     background-image: url("blob\ \(3\).svg");
     background-repeat: no-repeat;
@@ -236,7 +231,13 @@ form{
         color:blue;
     }
 
- 
+footer{
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+}
+
     
 
 @media screen and(max-width:480px){
