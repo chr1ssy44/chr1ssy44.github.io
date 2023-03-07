@@ -10,7 +10,8 @@ h1{
 }
 
 body{
-    background-color: #A4BE7B;
+    background-image: linear-gradient(#A4BE7E,#ffb9b9);
+    min-height:100vh;
     color:white;
     font-style: italic;
 }
@@ -103,8 +104,10 @@ input{
     border: 4px #FFB9B9 solid;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
 input[type=submit]{
     background-color:#BF9270;
+    font-family: 'Happy Monkey', cursive;
 }
 
 input:focus{
@@ -159,10 +162,9 @@ form{
 #res{
     position: fixed;
     left:0;
-    bottom:0;
+    bottom:0px;
     width:100%;
     height:5%;
-    background-color:#A4BE7B;
     text-align:center;
     text-decoration:overline;
 }
@@ -173,7 +175,7 @@ form{
     background-position: center;
     background-size: 100%;
     border-radius: 100px;
-    padding: 300px 100px;
+    padding: 90px 100px;
     /* unvisited link */
     a:link;
         color: white;
@@ -207,7 +209,7 @@ form{
     background-size: 100%;
     border-radius: 100px;
     margin-left: 200px ;
-    padding:300px 100px;
+    padding: 110px 100px;
     
     
     /* unvisited link */
@@ -237,8 +239,6 @@ footer{
     text-align: center;
     width: 100%;
 }
-
-    
 
 @media screen and(max-width:480px){
 }
