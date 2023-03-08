@@ -38,10 +38,15 @@ nav > a:hover {
 }
 
 img{
-    border-radius: 50%;
+    border-radius:50%;
+   
 }
 #hob{
     text-decoration: underline;
+}
+
+#welcome{
+    float:right;
 }
 
 #bout{
@@ -149,15 +154,6 @@ form{
     margin-top: 250px;
 }
 
-#car{
-    float: left;
-    position:relative;
-}
-
-#welcome{
-    position:fixed;
-    padding-left:275px; 
-}
 
 #res{
     position: fixed;
