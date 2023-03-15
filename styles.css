@@ -187,9 +187,10 @@ form{
         color:blue;
     }
 
- #rick{
+ #dots{
     text-align: center;
     text-decoration: overline;
+
  }
 
  #fact{
@@ -200,8 +201,6 @@ form{
     border-radius: 100px;
     margin-left: 200px ;
     padding: 110px 100px;
-    
-    
     /* unvisited link */
     a:link;
         color: white;
@@ -229,6 +228,7 @@ footer{
     text-align: center;
     width: 100%;
 }
+ 
 
 
 @media screen and(min-width:480px) and (max-width:550px){
