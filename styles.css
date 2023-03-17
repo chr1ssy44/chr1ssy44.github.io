@@ -33,12 +33,9 @@ nav > a:hover {
     border-radius: 4px;
 }
 
-#navbar{
-    position: sticky;
-}
 
 img{
-    border-radius: 50%;
+    border-radius: 20%;
     border-style:double;
 
 }
@@ -228,20 +225,47 @@ footer{
     text-align: center;
     width: 100%;
 }
- 
-#mail{
-    display: inline-block;
+
+#more{
+    text-decoration: overline;
+}
+
+#bums{
+    a:link;
+    color: white;
+}
+
+/* visited link */
+a:visited{
+    color: white;
+
+}
+
+/* mouse over link */
+a:hover{
+    color:#FEA1BF;
+}
+
+/* selected link */
+a:active{
+    color:blue;
+}
+
+.albums{
+    border-radius: 8px;
+    float: left;
+    padding: 5px;
+    border-style: none;
+    width: 33.33%;
+    filter: brightness(100%);
+
     
 }
-
-#tel{
-    display:inline-block;
-
-}
-
-
 @media screen and(min-width:480px) and (max-width:550px){
 }
  /*moblie-phone*
-    
 }
+#down{
+    display: none;
+
+
