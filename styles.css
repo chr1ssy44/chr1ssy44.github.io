@@ -261,6 +261,55 @@ a:active{
 
     
 }
+
+.star{
+   float: left; 
+   width: 33.33%;
+   padding: 5px;
+}
+
+.waste{
+    float: left; 
+   width: 33.33%;
+   padding: 5px;
+}
+
+.ultra{
+    float: left; 
+   width: 33.33%;
+   padding: 5px;
+}
+
+.artist{
+    float: left; 
+   width: 33.33%;
+   padding: 5px;
+}
+
+.take{
+    float: left; 
+   width: 33.33%;
+   padding: 5px;
+}
+
+.rema{
+    float: left; 
+   width: 33.33%;
+   padding: 5px;
+}
+
+#tel{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+#mail{
+    float: left;
+    padding: 5px;
+}
+
+
 @media screen and(min-width:480px) and (max-width:550px){
 }
  /*moblie-phone*
