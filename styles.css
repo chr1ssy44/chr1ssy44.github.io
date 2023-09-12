@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
 body{
     font-family: 'Bagel Fat One', cursive;
+    font-size: larger;
 }
 
 h1{
@@ -95,10 +96,10 @@ img{
     text-align: center;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Tourney&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
 
 #con {
-    font-family: 'Tourney', cursive;
+    font-family: 'Bagel Fat One', cursive;
     text-align: center;
     text-decoration: underline;
     color: #716040;
@@ -280,19 +281,12 @@ a:active{
    padding: 5px;
 }
 
-.artist{
+.emma{
     float: left; 
-   width: 33.33%;
-   padding: 5px;
+    width: 33.33%;
+    padding: 5px;
 }
-
 .take{
-    float: left; 
-   width: 33.33%;
-   padding: 5px;
-}
-
-.rema{
     float: left; 
    width: 33.33%;
    padding: 5px;
