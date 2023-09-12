@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase&family=Short+Stack&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
 body{
-    font-family: 'Delius Unicase', cursive;
+    font-family: 'Bagel Fat One', cursive;
 }
 
 h1{
@@ -111,10 +111,10 @@ input{
     border: 4px #FFB9B9 solid;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
 input[type=submit]{
     background-color:#BF9270;
-    font-family: 'Happy Monkey', cursive;
+    font-family: 'Bagel Fat One', cursive;
 }
 
 input:focus{
