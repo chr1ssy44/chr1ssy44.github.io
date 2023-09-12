@@ -309,7 +309,14 @@ a:active{
     padding: 5px;
 }
 
+#blue{
+    width:290px
+}
 
+#blue:hover{
+    width:320px;
+    transition: 1s;
+}
 @media screen and(min-width:480px) and (max-width:550px){
 }
  /*moblie-phone*
